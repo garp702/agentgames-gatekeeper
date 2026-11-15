@@ -1,0 +1,17 @@
+{
+  "name": "agentgames-gatekeeper",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Proof Gatekeeper agent for zkVerify Agent Games (Season 01) — local build",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node test/run-tests.js"
+  },
+  "dependencies": {
+    "snarkjs": "0.7.6"
+  },
+  "devDependencies": {
+    "circomlibjs": "^0.1.7"
+  }
+}
